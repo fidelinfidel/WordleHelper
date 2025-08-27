@@ -54,7 +54,7 @@ namespace WordleSovlerHelper
         static List<string> Calculate(List<string> unknowns, List<string> validLetters)
         {
 
-            StreamReader sr = new StreamReader("C:\\Users\\tfryg\\source\\repos\\WordleHelp\\validwordlewords.txt");
+            StreamReader sr = new StreamReader("validwordlewords.txt");
 
             string line = sr.ReadLine();
 
